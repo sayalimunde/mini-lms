@@ -2,6 +2,31 @@
 
 A platform for creating and managing online courses.
 
+This is a mini Learning Management System (LMS) built using React for the frontend and Firebase for the backend. It supports two types of users: Students and Instructors. Instructors can create courses, add lessons, and manage course content. Students can browse and view courses and lessons.
+
+## Features
+* User Authentication: Firebase Authentication is used for secure login and registration. Users can register either as a Student or an Instructor.
+
+* Instructor Features:
+  * Create new courses
+  * Add lessons to courses
+  * Edit or delete courses and lessons
+* Student Features:
+  * Browse available courses
+  * Enroll in courses
+  * Watch lessons within a course
+* Dashboard:
+  * Instructors can view and manage their created courses and lessons.
+  * Students can view all available courses, enrolled courses, and watch lessons.
+  * Responsive Design: The application is designed to be mobile-friendly and accessible on all devices.
+
+## Tech Stack
+* Frontend: React.js
+* Backend: Firebase
+* Firebase Authentication for user authentication
+* Firebase Firestore for storing courses, lessons, and user data
+* Authentication: Firebase Authentication (Email/Password-based login)
+  
 ## Firebase Setup
 
 This application uses Firebase for authentication and data storage. Follow these steps to set up your Firebase project:
