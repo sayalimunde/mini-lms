@@ -1,4 +1,5 @@
-# Learn Hub Mini Courses
+# Mini Online Learning Management System (LMS)
+<!-- ## Learn Hub Mini Courses -->
 
 A platform for creating and managing online courses.
 
